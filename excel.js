@@ -135,7 +135,7 @@
         onCustomWidgetAfterUpdate(changedProperties) {
             var that = this;
 
-            let xlsxjs = "https://vmathreya1.github.io/Excel-Upload/xlsx.js";
+            let xlsxjs = "https://Priyankasac.github.io/Excel-Upload/xlsx.js";
             async function LoadLibs() {
                 try {
                     await loadScript(xlsxjs, _shadowRoot);
@@ -359,11 +359,15 @@
                                                     result_final.push({
                                                       'ID': rec[0].trim(),
                                                       'DESCRIPTION': rec[1].trim(),
-                                                      'ASSET_TYPE': rec[2].trim(),
-                                                      'COMPANY_CODE': rec[3].trim(),
-                                                      'ASSET_CLASS': rec[4].trim(),
-                                                      'COST_CENTER': rec[5].trim(),
-                                                      'CWIP': rec[6].trim(),
+                                                      'GENDER': rec[2].trim(),
+                                                      'HIREMONTH': rec[3].trim(),
+                                                      'STATUS': rec[4].trim(),
+                                                      'PAYGRADE': rec[5].trim(),
+                                                      'JOBCODE': rec[6].trim(),
+                                                       'DEPARTMENT': rec[7].trim(),
+                                                       'COSTCENTER': rec[8].trim(),
+                                                        'CITIZENSHIP':rec[7].trim(),
+                                                        'NATIONALITY':rec[7].trim(),
                                                     });
                                                 }
                                             }
