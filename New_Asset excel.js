@@ -346,7 +346,7 @@
                                 var rec_count = 0;
 
                                 var len = 0;
-                                if (lengthfield === 11) {
+                                if (lengthfield === 10) {
                                     for (var i = 1; i < result.split("[$@~!~@$]").length; i++) {
                                         if (result.split("[$@~!~@$]")[i].length > 0) {
 
@@ -359,15 +359,13 @@
                                                     result_final.push({
                                                       'ID': rec[0].trim(),
                                                       'DESCRIPTION': rec[1].trim(),
-                                                      'GENDER': rec[2].trim(),
-                                                      'HIREMONTH': rec[3].trim(),
-                                                      'STATUS': rec[4].trim(),
+                                                      'H1': rec[2].trim(),
+                                                      'COMPANY_CODE': rec[3].trim(),
+                                                      'ASSET_CLASS': rec[4].trim(),
                                                       'PAYGRADE': rec[5].trim(),
-                                                      'JOBCODE': rec[6].trim(),
-                                                       'DEPARTMENT': rec[7].trim(),
+                                                      'JOBCODE': rec[6].trim(),                                                       
                                                        'COSTCENTER': rec[8].trim(),
-                                                        'CITIZENSHIP':rec[9].trim(),
-                                                        'NATIONALITY':rec[10].trim(),
+                                                        'PLANT':rec[9].trim(),                                                       
                                                     });
                                                 }
                                             }
