@@ -353,19 +353,17 @@
                                             var rec = result.split("[$@~!~@$]")[i].split("[#@~!~@#]");
                                             if (rec.length > 0) {
                                                 len = rec[0].trim().length + rec[1].trim().length + rec[2].trim().length + rec[3].trim().length + rec[4].trim().length + rec[
-                                                    5].trim().length + rec[6].trim().length+rec[7].trim().length+rec[8].trim().length+rec[9].trim().length+rec[10].trim().length;
+                                                    5].trim().length + rec[6].trim().length+rec[7].trim().length;
                                                 if (len > 0) {
                                                     rec_count = rec_count + 1;
                                                     result_final.push({
                                                       'ID': rec[0].trim(),
                                                       'DESCRIPTION': rec[1].trim(),
-                                                      'H1': rec[2].trim(),
+                                                      'ASSET_TYPE': rec[2].trim(),
                                                       'COMPANY_CODE': rec[3].trim(),
-                                                      'ASSET_CLASS': rec[4].trim(),
-                                                      'PAYGRADE': rec[5].trim(),
-                                                      'JOBCODE': rec[6].trim(),                                                       
-                                                       'COSTCENTER': rec[8].trim(),
-                                                        'PLANT':rec[9].trim(),                                                       
+                                                      'ASSET_CLASS': rec[4].trim(),                                                                                                           
+                                                       'COSTCENTER': rec[5].trim(),
+                                                        'CWIP':rec[6].trim(),                                                       
                                                     });
                                                 }
                                             }
