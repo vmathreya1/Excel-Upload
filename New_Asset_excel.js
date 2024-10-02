@@ -353,7 +353,7 @@
                                             var rec = result.split("[$@~!~@$]")[i].split("[#@~!~@#]");
                                             if (rec.length > 0) {
                                                 len = rec[0].trim().length + rec[1].trim().length + rec[2].trim().length + rec[3].trim().length + rec[4].trim().length + rec[
-                                                    5].trim().length + rec[6].trim().length+rec[7].trim().length;
+                                                    5].trim().length + rec[6].trim().length;
                                                 if (len > 0) {
                                                     rec_count = rec_count + 1;
                                                     result_final.push({
@@ -362,7 +362,7 @@
                                                       'ASSET_TYPE': rec[2].trim(),
                                                       'COMPANY_CODE': rec[3].trim(),
                                                       'ASSET_CLASS': rec[4].trim(),                                                                                                           
-                                                       'COSTCENTER': rec[5].trim(),
+                                                       'COST_CENTER': rec[5].trim(),
                                                         'CWIP':rec[6].trim(),                                                       
                                                     });
                                                 }
