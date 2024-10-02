@@ -346,28 +346,24 @@
                                 var rec_count = 0;
 
                                 var len = 0;
-                                if (lengthfield === 11) {
+                                if (lengthfield === 7) {
                                     for (var i = 1; i < result.split("[$@~!~@$]").length; i++) {
                                         if (result.split("[$@~!~@$]")[i].length > 0) {
 
                                             var rec = result.split("[$@~!~@$]")[i].split("[#@~!~@#]");
                                             if (rec.length > 0) {
                                                 len = rec[0].trim().length + rec[1].trim().length + rec[2].trim().length + rec[3].trim().length + rec[4].trim().length + rec[
-                                                    5].trim().length + rec[6].trim().length+rec[7].trim().length+rec[8].trim().length+rec[9].trim().length+rec[10].trim().length;
+                                                    5].trim().length + rec[6].trim().length;
                                                 if (len > 0) {
                                                     rec_count = rec_count + 1;
                                                     result_final.push({
-                                                      'ID': rec[0].trim(),
+                                                      'ASSET': rec[0].trim(),
                                                       'DESCRIPTION': rec[1].trim(),
-                                                      'GENDER': rec[2].trim(),
-                                                      'HIREMONTH': rec[3].trim(),
-                                                      'STATUS': rec[4].trim(),
-                                                      'PAYGRADE': rec[5].trim(),
-                                                      'JOBCODE': rec[6].trim(),
-                                                       'DEPARTMENT': rec[7].trim(),
-                                                       'COSTCENTER': rec[8].trim(),
-                                                        'CITIZENSHIP':rec[9].trim(),
-                                                        'NATIONALITY':rec[10].trim(),
+                                                      'ASSET_TYPE': rec[2].trim(),
+                                                      'COMPANY_CODE': rec[3].trim(),
+                                                      'ASSET_CLASS': rec[4].trim(),                                             
+                                                       'COST_CENTER': rec[5].trim(),                                                       
+                                                        'CWP':rec[6].trim(),                                                       
                                                     });
                                                 }
                                             }
