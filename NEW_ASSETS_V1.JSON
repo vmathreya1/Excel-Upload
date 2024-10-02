@@ -12,7 +12,7 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "com-fd-djaja-sap-sac-excel",
+      "tag": "com-vmathreya1-sap-sac-excel",
       "url": "https://vmathreya1.github.io/Excel-Upload/New_Asset_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
