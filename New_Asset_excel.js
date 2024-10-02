@@ -358,11 +358,11 @@
                                                     rec_count = rec_count + 1;
                                                     result_final.push({
                                                       'Asset': rec[0].trim(),
-                                                      'Description': rec[1].trim(),
+                                                      'DESCRIPTION': rec[1].trim(),
                                                       'ASSET_TYPE': rec[2].trim(),
-                                                      'Company Code': rec[3].trim(),
-                                                      'Asset Class': rec[4].trim(),                                                                                                           
-                                                       'Cost Center': rec[5].trim(),
+                                                      'COMPANY_CODE': rec[3].trim(),
+                                                      'ASSET_CLASS': rec[4].trim(),                                                                                                           
+                                                       'COST_CENTER': rec[5].trim(),
                                                         'CWP':rec[6].trim(),                                                       
                                                     });
                                                 }
