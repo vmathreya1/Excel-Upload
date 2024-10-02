@@ -13,14 +13,14 @@
     {
       "kind": "main",
       "tag": "com-fd-djaja-sap-sac-excel",
-      "url": "https://vmathreya1.github.io/Excel-Upload/New_Asset excel.js",
+      "url": "https://vmathreya1.github.io/Excel-Upload/New_Asset_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-fd-djaja-sap-sac-excel-aps",
-      "url": "https://vmathreya1.github.io/Excel-Upload/New_Asset aps_excel.js",
+      "url": "https://vmathreya1.github.io/Excel-Upload/New_Asset_aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
